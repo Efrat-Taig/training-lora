@@ -24,10 +24,21 @@ This repository contains files for training LoRA using Bria's compatible text-to
    - Generate your dataset and upload it to [Hugging Face](https://huggingface.co/) to streamline the import process.
    - Example dataset: [Modern Blurred SeaView](https://huggingface.co/datasets/Negev900/Modern_Blurred_SeaView)
 
+Sample from the Modern Blurred SeaView Dataset:
+
+<img src="https://github.com/Efrat-Taig/training-lora/blob/main/Data_set_sample.png" width="600">>
+
+
 2. **Detailed Guide**:
    For step-by-step instructions on preparing your dataset, refer to [this article](link-to-article).
 
-## Results
+## LoRA Training Results Sample Collection:
+In the images, each column represents a different model variant after LoRA fine-tuning, while each row corresponds to a different seed. The prompt used to generate each image is noted below the images. Notably,
+at a checkpoint of 800 steps, the generated data begins to closely resemble the training data, indicating effective adaptation of the model to the dataset characteristics. This demonstrates the model's ability to capture and replicate specific features of the training data within relatively few training steps.
 
-The repository also includes sample result images to showcase the LoRA training output.
+
+<img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_2.png" width="600">>
+
+<img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_1.png" width="600">>
+
 
