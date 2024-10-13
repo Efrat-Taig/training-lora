@@ -3,7 +3,7 @@
 
 This repository contains files for training LoRA using Bria's compatible text-to-image models with SDXL, allowing easy setup and execution.
 
-## Files Included
+### Files Included:
 - **[Train_text_to_image_lora_sdxl.py](https://github.com/Efrat-Taig/training-lora/blob/main/train_text_to_image_lora_sdxl.py)**: Core training script for LoRA, adapted from Hugging Face Diffusers.
 - **[Train_lora.sh](https://github.com/Efrat-Taig/training-lora/blob/main/train_lora.sh)**: Script to configure and initiate LoRA training.
 
