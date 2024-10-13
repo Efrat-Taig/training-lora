@@ -1,5 +1,5 @@
 
-# Training LoRA with Bria's Text-to-Image Model on SDXL
+# Training LoRA with Bria's Text-to-Image Model
 
 This repository contains files for training LoRA using Bria's compatible text-to-image models with SDXL, allowing easy setup and execution.
 
