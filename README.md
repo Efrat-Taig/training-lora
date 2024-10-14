@@ -34,11 +34,11 @@ Sample from the Modern Blurred SeaView Dataset:
 
 ## LoRA Training Results Sample Collection:
 In the images, each column represents a different model variant after LoRA fine-tuning, while each row corresponds to a different seed. The prompt used to generate each image is noted below the images. Notably,
-at a checkpoint of 800 steps, the generated data begins to closely resemble the training data, indicating effective adaptation of the model to the dataset characteristics. This demonstrates the model's ability to capture and replicate specific features of the training data within relatively few training steps.
+at a checkpoint of 1400 steps, the generated data closely resemble the training data, indicating effective adaptation of the model to the dataset characteristics. This demonstrates the model's ability to capture and replicate specific features of the training data within relatively few training steps.
 
-
-<img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_3.png" width="600">>
 
 <img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_1.png" width="600">>
+<img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_2.png" width="600">>
+<img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_3.png" width="600">>
 
 
