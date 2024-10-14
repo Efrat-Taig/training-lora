@@ -76,4 +76,4 @@ Here’s a closing section for your README:
 
 If you have any questions or need further assistance, feel free to reach out to me here, or connect via email (efrat@bria.ai) and [LinkedIn](https://www.linkedin.com/in/efrattaig/). 
 
-For academic users interested in accessing the model, please [register here]([link](https://docs.google.com/forms/d/1sSjxqS_2T4RB0dxnPjpygm7EXxa3RYNm2e4PUXQKnLo/edit)) for access and further details. You can also refer to this [model information link](https://huggingface.co/briaai) or [article]([link](https://medium.com/@efrat_37973/bridging-the-gap-from-academic-ai-to-ethical-business-models-89327517b940)) for additional insights.
+For academic users interested in accessing the model, please [register here]([link](https://docs.google.com/forms/d/1sSjxqS_2T4RB0dxnPjpygm7EXxa3RYNm2e4PUXQKnLo/edit)) for access and further details. You can also refer to this [model information link](https://huggingface.co/briaai) or [article](https://medium.com/@efrat_37973/bridging-the-gap-from-academic-ai-to-ethical-business-models-89327517b940) for additional insights.
