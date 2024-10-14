@@ -34,6 +34,13 @@ Below is an example dataset, Modern Blurred SeaView, I created; you can copy thi
    - Example dataset: [Modern Blurred SeaView](https://huggingface.co/datasets/Negev900/Modern_Blurred_SeaView)
    - A simple 2-minute tutorial on how to upload data to Hugging Face [here](https://www.youtube.com/watch?v=HaN6qCr_Afc&t=55s)
 
+### Image Resolution Requirements
+
+   - The optimal and required image resolution for this project is 1024x1024 pixels.
+   - Images with lower resolutions will not work properly with the current setup.
+   - Higher resolutions may consume excessive memory and are not supported at this time.
+
+Note: Using the recommended 1024x1024 resolution ensures the best performance and results with our current model configuration.
      >💡Note that the more detailed part of saving the data is the JSONL file, which needs to be very precise. You can copy this structure from [here](https://huggingface.co/datasets/Negev900/Modern_Blurred_SeaView/blob/main/metadata.jsonl).
 
 
@@ -68,12 +75,34 @@ at a checkpoint of 1400 steps, the generated data closely resemble the training 
 <img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_2.png" width="600">
 <img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_3.png" width="600">
 
-Here’s a closing section for your README:
 
----
+## Troubleshooting
 
+Here are some common issues and their solutions:
+
+1. **CUDA out of memory error**
+   - Try reducing the batch size 
+   - Try reducing the rank size
+   - Try reducing the batch image resolution
+   - Ensure no other GPU-intensive tasks are running
+
+2. **Module not found error**
+   - Double-check that all required libraries are installed
+   - Ensure you're using the correct Python environment
+
+3. **Fine-tuning results in generated images**
+   - Before integrating LoRA with background generation, ensure you're comfortable with the LoRA model's performance on its own
+   - Experiment with different prompts to guide the image generation process
+   - Try various seed values to explore different random initializations
+   - Adjust the LoRA weight to control the influence of your trained style
+   - Play with combinations of prompt, seed, and LoRA weight to achieve desired results
+  
+     
 ## Final Notes
+For further assistance or collaboration opportunities, feel free to reach out:
+- Email: efrat@bria.ai
+- [LinkedIn](https://www.linkedin.com/in/efrattaig/)
 
-If you have any questions or need further assistance, feel free to reach out to me here, or connect via email (efrat@bria.ai) and [LinkedIn](https://www.linkedin.com/in/efrattaig/). 
+Academic users interested in accessing the model can [register here](https://docs.google.com/forms/d/1sSjxqS_2T4RB0dxnPjpygm7EXxa3RYNm2e4PUXQKnLo/edit) for access and further details.
 
-For academic users interested in accessing the model, please [register here]([link](https://docs.google.com/forms/d/1sSjxqS_2T4RB0dxnPjpygm7EXxa3RYNm2e4PUXQKnLo/edit)) for access and further details. You can also refer to this [model information link](https://huggingface.co/briaai) or [article](https://medium.com/@efrat_37973/bridging-the-gap-from-academic-ai-to-ethical-business-models-89327517b940) for additional insights.
+For additional insights, refer to this [model information link](https://huggingface.co/briaai) or [article](https://medium.com/@efrat_37973/bridging-the-gap-from-academic-ai-to-ethical-business-models-89327517b940).
