@@ -48,10 +48,10 @@ Sample from my [Modern Blurred SeaView](https://huggingface.co/datasets/Negev900
 ### Evaluation Files Included:
 
 1. **Single eval**:
-   The  file, **aaa**, generates results for a single checkpoint. 
+   The  file [**BRIA_LoRA_Image_Generator.py**](https://github.com/Efrat-Taig/training-lora/blob/main/BRIA_LoRA_Image_Generator.py) generates results for a single checkpoint. 
 
 2. **Multiple eval**:
-   The  file, **aaa**, loops through seeds, prompts, and checkpoints to generate multiple images, as shown in the examples below.
+   The  file [**Lora_Multi-Checkpoint_Image_Generation_Comparer.py**](https://github.com/Efrat-Taig/training-lora/blob/main/Lora_Multi-Checkpoint_Image_Generation_Comparer.py) loops through seeds, prompts, and checkpoints to generate multiple images, as shown in the examples below.
    
      >💡Note to customize the prompts and paths to fit your specific needs.
      >If you're having difficulty running the scrips, I suggest first running the inference for Bria 2.3 and ensuring all installations are set up as described in [this](https://huggingface.co/briaai/BRIA-2.3) model card.
@@ -68,4 +68,12 @@ at a checkpoint of 1400 steps, the generated data closely resemble the training 
 <img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_2.png" width="600">
 <img src="https://github.com/Efrat-Taig/training-lora/blob/main/lora_res_3.png" width="600">
 
+Here’s a closing section for your README:
 
+---
+
+## Final Notes
+
+If you have any questions or need further assistance, feel free to reach out to me here, or connect via email (efrat@bria.ai) and [LinkedIn](https://www.linkedin.com/in/efrattaig/). 
+
+For academic users interested in accessing the model, please [register here]([link](https://docs.google.com/forms/d/1sSjxqS_2T4RB0dxnPjpygm7EXxa3RYNm2e4PUXQKnLo/edit)) for access and further details. You can also refer to this [model information link](https://huggingface.co/briaai) or [article]([link](https://medium.com/@efrat_37973/bridging-the-gap-from-academic-ai-to-ethical-business-models-89327517b940)) for additional insights.
