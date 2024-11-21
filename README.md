@@ -102,6 +102,8 @@ Here are some common issues and their solutions:
 For further assistance or collaboration opportunities, feel free to reach out:
 - Email: efrat@bria.ai
 - [LinkedIn](https://www.linkedin.com/in/efrattaig/)
+- Join my [Discord community](https://discord.gg/Nxe9YW9zHS) for more information, tutorials, tools, and to connect with other users!
+
 
 Academic users interested in accessing the model can [register here](https://docs.google.com/forms/d/1sSjxqS_2T4RB0dxnPjpygm7EXxa3RYNm2e4PUXQKnLo/edit) for access and further details.
 
